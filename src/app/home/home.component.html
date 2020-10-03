@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          z-index: 999;
+        }
+        
+        
+        </style>
+          <style>
+            @media(min-width:768px)
+            {
+              .koa
+              {
+                margin-left:100px;z-index: 999;background-color: #0339;
+              }
+            }
+            @media(max-width:992px)
+            {
+              .koa
+              {
+              z-index: 999;background-color: #fcd846;text-align: center;
+                
+              }
+            }
+          </style>
+          <style>
+               .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 150px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 60px;
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+          </style>
+      
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <div class="container" style="margin-top:10px;">
+        <div class="row" >
+          <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+            <p style="color:black;z-index:999;position:relative"><i class="fa fa-envelope"></i>&nbsp;&nbsp; <b>info@livetechservices.in</b></p>
+  
+  
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+            <p style="color:black;z-index:999;position:relative"><i class="fa fa-phone"></i>&nbsp;&nbsp; <b>+91 8802351855, +91 9643824091</b></p>
+  
+  
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+            <p style="color:black;z-index:999;position:relative;margin-left:200px;" ><i class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-youtube"></i></p>
+  
+  
+          </div>
+        </div>
+  
+      </div>
+    <nav class="navbar navbar-expand-lg navbar-light header" style="height:80px;"  id="myHeader">
+        <img src="assets/images/livetech.png" style="height:80px;width:200px;z-index: 999;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse koa" id="navbarNav" style="height: 45px;width:122%;margin-left:20px;" >
+          <ul class="navbar-nav" >
+            <li class="nav-item active" style="padding-right:50px;">
+              <a class="nav-link" href="#" style="color:white"><b>Home</b> <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item active" style="padding-right:50px;">
+              <a class="nav-link" href="/about"style="color:white"><b>About us</b></a>
+            </li>
+            <li class="nav-item active" style="padding-right:50px;">
+              <a class="nav-link" href="/products" style="color:white"><b>Products</b></a>
+            </li>
+            <li class="nav-item active" style="padding-right:50px;">
+                <a class="nav-link" href="/services" style="color:white"><b>Services</b></a>
+              </li>
+            <li class="nav-item active" style="padding-right:50px;">
+              <a class="nav-link" href="/contact" style="color:white"><b>Contact Us</b></a>
+            </li>
+            <li class="nav-item active" style="padding-right:50px;">
+              <a class="nav-link" href="/careers" style="color:white"><b>Careers</b></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top:-200px;">
+        <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" style="height:800px">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/images/web1.jpg" alt="First slide">
+     
+            <div class="carousel-caption d-none d-md-block" >
+              
+              <!-- <h5 style="color:#075196">
+      Banner Text one</h5>
+      <p style="color:#075196">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+      </div>
+      </div>
+      <div class="carousel-item" >
+            <img class="d-block w-100" src="assets/images/mobile1.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5 style="color:#075196">
+      Banner Text two</h5>
+      <p style="color:#075196">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+      </div>
+      </div>
+      <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/graphic1.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5 style="color:#075196">
+      Banner Text three</h5>
+      <p style="color:#075196">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p> -->
+      </div>
+      </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  <div class="container" style="margin-top: -150px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <br>
+       <p style="text-align: center;color:#075196;font-size: 40px;"><b>Services we provide</b></p>
+       <hr style="background-color:#075196;text-align: center;width:6%;height:2px;margin-top:15px;">
+      </div>
+  
+    </div>
+    <br>
+    <style>
+      .card {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      }
+      
+      .card:hover {
+        box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+      }
+      
+     
+      </style>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+        <div class="card-body">
+          <img src="assets/images/matufacturing.png" style="height:250px;width:250px;margin-left:20px" >
+         
+           <p style="text-align: center;margin-top: 40px;font-family: rubik;font-size: 20px;"><b>Manufacturing Domain</b></p>
+           <div style="text-align: center;">
+            <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+          </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="assets/images/supplychain.jpg" style="height:250px;width:250px;margin-left:20px" >
+           
+            <p style="text-align: center;margin-top: 40px;font-family: rubik;font-size: 20px;"><b>Retail Supply Chain</b></p>
+         <div style="text-align: center;">
+            <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+          </div>
+          </div>
+          </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="assets/images/financedomain.jpg" style="height:250px;width:250px;margin-left:20px" >
+     
+            <p style="text-align: center;margin-top: 40px;font-family: rubik;font-size: 20px;"><b>Finance Domain</b></p>
+            <div style="text-align: center;">
+              <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+            </div>
+          </div>
+          </div>
+      </div>
+  
+    </div>
+  </div>
+  
+  <style>
+    @media(min-width:768px){
+  .ss{
+    position: absolute;margin-top: 70px;margin-left: 600px;
+  }
+  .ss1{
+    width:200px;;position: absolute;margin-top: 110px;margin-left: 550px;
+  }
+  .ss2{
+    height:80px;width:80px;
+  }
+  
+    }
+    @media(max-width:992px){
+  .ss{
+    margin-top: 20px;text-align: center;
+  }
+  .ss2{
+    height:80px;width:80px;
+  }
+  }
+  </style>
+  
+ 
+  <br>
+  <br>
+  <style>
+    .parallax {
+        /* The image used */
+        background-image: url("assets/images/slide1.jpg");
+  
+        /* Set a specific height */
+        min-height: 750px;
+  
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+  }
+  
+  
+    
+   
+   </style>
+  
+  
+    <div class="parallax" >
+    <div style="background-color:  #3f189a;opacity:0.6;height: 750px;">
+      <br>
+      <p style="color:white;font-size: 35px;font-family: Roboto Slab, serif;text-align:center;"><strong>Why Do You Choose Live Tech Services</strong></p>
+      <p  style="color:white;font-size: 17px;font-family: Roboto Slab, serif;text-align:center;"><strong>Complete On-Site Solutions for all your Home & Business needs.</strong></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2" >
+            <img src="assets/images/agile1.png" style="color:white;text-align:center;height:150px;width:150px;">
+    
+            <ul style="color:white;font-size: 25px; font-family: Roboto Slab, serif;margin-top:20px;text-align: center;width:500px;margin-left:-190px" ><b>Agile Methodology </b></ul>
+          
+  
+          </div>
+          <div class="col-lg-8">
+            <img src="assets/images/responsive1.jpg" style="color:white;text-align:center;margin-top: 70px;margin-left:150px;height:250px;width:450px;">
+     
+         </div>
+         <div class="col-lg-2">
+          <img src="assets/images/code.png" style="color:white;text-align:center;margin-left:-10px;height:150px;width:150px;">
+          <ul style="color:white;font-size: 25px; font-family: Roboto Slab, serif;margin-top:20px;text-align: center;margin-left:-50px" ><b>Quality Code </b></ul>
+  
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-1" >
+            <img src="assets/images/end1.jpg" style="color:white;text-align:center;height:150px;width:150px;">
+    
+            <ul style="color:white;font-size: 25px; font-family: Roboto Slab, serif;margin-top:20px;text-align: center;width:500px;margin-left:-190px" ><b>End To End Solution</b></ul>
+          
+  
+          </div>
+          <div class="col-lg-10">
+     
+         </div>
+         <div class="col-lg-1">
+          <img src="assets/images/onsite1.jpg" style="color:white;text-align:center;margin-left:-90px;height:150px;width:150px;">
+          <ul style="color:white;font-size: 25px; font-family: Roboto Slab, serif;margin-top:20px;text-align: center;margin-left:-150px" ><b>Onsite Support </b></ul>
+  
+         </div>
+        </div>
+      </div>
+      <div>
+      <div>
+        
+      </div>
+    </div>
+    </div>
+  
+    </div>
+
+    <br><br><br>
+    <div class="container">
+      <div class="row">
+     
+    
+        <div class="col-lg-12">
+          <p style="font-size: 40px;color:#075196;text-align: center;" ><b>Our Expertise</b></p>
+          <hr style="background-color:#f7b205;width:10%;height:2px;text-align: center;">
+          <div style="text-align:center">
+    
+            <owl-carousel-o [options]="customOptions" >
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body">
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                   
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Website Development</b></p>
+                    <div style="text-align: center;">
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                    </div>
+           
+                   </div>
+           
+                 </div>
+               </ng-template> 
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body">
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Web Portal Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template> 
+               
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Digital Marketing</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>ERP Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>CRM Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Graphics Designing</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Mobile App Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Software Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+             
+             </owl-carousel-o> 
+           </div>
+    
+        </div>
+     
+        
+      </div>
+      
+    
+    </div>
+    
+
+
+  
+  <br><br>
+  <style>
+    .parallax {
+        /* The image used */
+        background-image: url("assets/images/bg1.jpg");
+  
+        /* Set a specific height */
+        min-height: 550px;
+  
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+  }
+  
+  
+    
+   
+   </style>
+
+  
+    <div class="parallax" >
+    <div style="background-color:  #3f189a;opacity:0.8;height: 550px;">
+      
+      <br>
+      <p style="color:white;font-size: 35px;font-family: Roboto Slab, serif;text-align:center;"><strong>What people say</strong></p>
+      <p  style="color:white;font-size: 17px;font-family: Roboto Slab, serif;text-align:center;"><strong></strong></p>
+    <br> <br>
+      <div style="margin-left: 100px;">
+    
+        <owl-carousel-o [options]="customOptions1" >
+           <ng-template carouselSlide >
+             <div class="card" style="height:250px;width:500px;">
+               <div class="card-body">
+                 <img src="assets/images/pic2.jpg" style="height: 80px;width:80px;border-radius: 45px;"> 
+               
+                 <div style="background-color: #fff;
+                 padding: 20px 20px 20px 70px;
+                 margin-left: 30px;margin-top: -71px;
+               "><h5 class="name">Peter Packer</h5>
+               <h6 style="color: grey;">Managing Director</h6>
+ 
+              </div>
+              <div style="margin-top: 10px;"><p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></div>
+
+       
+               </div>
+       
+             </div>
+           </ng-template> 
+           <ng-template carouselSlide>
+            <div class="card" style="height:250px;width:500px;">
+              <div class="card-body">
+                <img src="assets/images/pic2.jpg" style="height: 80px;width:80px;border-radius: 45px;"> 
+              
+                <div style="background-color: #fff;
+                padding: 20px 20px 20px 70px;
+                margin-left: 30px;margin-top: -71px;
+              "><h5 class="name">Peter Packer</h5>
+              <h6 style="color: grey;">Managing Director</h6>
+
+             </div>
+             <div style="margin-top: 10px;"><p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></div>
+
+      
+              </div>
+      
+            </div>
+           </ng-template> 
+           
+           <ng-template carouselSlide>
+            <div class="card" style="height:250px;width:500px;">
+              <div class="card-body">
+                <img src="assets/images/pic2.jpg" style="height: 80px;width:80px;border-radius: 45px;"> 
+              
+                <div style="background-color: #fff;
+                padding: 20px 20px 20px 70px;
+                margin-left: 30px;margin-top: -71px;
+              "><h5 class="name">Peter Packer</h5>
+              <h6 style="color: grey;">Managing Director</h6>
+
+             </div>
+             <div style="margin-top: 10px;"><p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></div>
+
+      
+              </div>
+      
+            </div>
+           </ng-template>
+           
+           <ng-template carouselSlide>
+            <div class="card" style="height:250px;width:500px;">
+              <div class="card-body">
+                <img src="assets/images/pic2.jpg" style="height: 80px;width:80px;border-radius: 45px;"> 
+              
+                <div style="background-color: #fff;
+                padding: 20px 20px 20px 70px;
+                margin-left: 30px;margin-top: -71px;
+              "><h5 class="name">Peter Packer</h5>
+              <h6 style="color: grey;">Managing Director</h6>
+
+             </div>
+             <div style="margin-top: 10px;"><p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></div>
+
+      
+              </div>
+      
+            </div>
+           </ng-template>
+           <ng-template carouselSlide>
+            <div class="card" style="height:250px;width:500px;">
+              <div class="card-body">
+                <img src="assets/images/pic2.jpg" style="height: 80px;width:80px;border-radius: 45px;"> 
+              
+                <div style="background-color: #fff;
+                padding: 20px 20px 20px 70px;
+                margin-left: 30px;margin-top: -71px;
+              "><h5 class="name">Peter Packer</h5>
+              <h6 style="color: grey;">Managing Director</h6>
+
+             </div>
+             <div style="margin-top: 10px;"><p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></div>
+
+      
+              </div>
+      
+            </div>
+           </ng-template>
+           <ng-template carouselSlide>
+            <div class="card" style="height:250px;width:500px;">
+              <div class="card-body">
+                <img src="assets/images/pic2.jpg" style="height: 80px;width:80px;border-radius: 45px;"> 
+              
+                <div style="background-color: #fff;
+                padding: 20px 20px 20px 70px;
+                margin-left: 30px;margin-top: -71px;
+              "><h5 class="name">Peter Packer</h5>
+              <h6 style="color: grey;">Managing Director</h6>
+
+             </div>
+             <div style="margin-top: 10px;"><p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></div>
+
+      
+              </div>
+      
+            </div>
+           </ng-template>
+           <ng-template carouselSlide>
+            <div class="card" style="height:250px;width:500px;">
+              <div class="card-body">
+                <img src="assets/images/pic2.jpg" style="height: 80px;width:80px;border-radius: 45px;"> 
+              
+                <div style="background-color: #fff;
+                padding: 20px 20px 20px 70px;
+                margin-left: 30px;margin-top: -71px;
+              "><h5 class="name">Peter Packer</h5>
+              <h6 style="color: grey;">Managing Director</h6>
+
+             </div>
+             <div style="margin-top: 10px;"><p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></div>
+
+      
+              </div>
+      
+            </div>
+           </ng-template>
+           <ng-template carouselSlide>
+            <div class="card" style="height:250px;width:500px;">
+              <div class="card-body">
+                <img src="assets/images/pic2.jpg" style="height: 80px;width:80px;border-radius: 45px;"> 
+              
+                <div style="background-color: #fff;
+                padding: 20px 20px 20px 70px;
+                margin-left: 30px;margin-top: -71px;
+              "><h5 class="name">Peter Packer</h5>
+              <h6 style="color: grey;">Managing Director</h6>
+
+             </div>
+             <div style="margin-top: 10px;"><p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p></div>
+
+      
+              </div>
+      
+            </div>
+           </ng-template>
+         
+         </owl-carousel-o> 
+       </div>
+      <div>
+      <div>
+        
+      </div>
+    </div>
+    </div>
+  
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="col-lg-12">
+        <p style="font-size: 40px;color:#075196;text-align: center;" ><b>Our Recent Blogs</b></p>
+        <hr style="background-color:#f7b205;width:15%;height:2px;text-align: center;">
+  
+  
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-4">
+      <div class="card">
+        <div class="card-body">
+  <img src="assets/images/ny1.jpg" style="height: 250px;width:300px;">
+  
+  <p style="color:#075196;text-align:center;margin-top:20px;font-size:25px;"><b>Blogs Title</b></p>
+        </div>
+      </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/images/ny1.jpg" style="height: 250px;width:300px;">
+  
+  <p style="color:#075196;text-align:center;margin-top:20px;font-size:25px;"><b>Blogs Title</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/images/ny1.jpg" style="height: 250px;width:300px;">
+  
+              <p style="color:#075196;text-align:center;margin-top:20px;font-size:25px;"><b>Blogs Title</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+      <div class="row">
+     
+    
+        <div class="col-lg-12">
+          <p style="font-size: 40px;color:#075196;text-align: center;" ><b>Upcoming Events</b></p>
+          <hr style="background-color:#f7b205;width:10%;height:2px;text-align: center;">
+          <div style="text-align:center;">
+    
+            <owl-carousel-o [options]="customOptions" >
+               <ng-template carouselSlide >
+                 <div class="card" style="height:520px;width:530px" >
+                   <div class="card-body">
+                     <img src="assets/images/pic4.jpg"> 
+                   
+                     <p style="margin-top: 20px;font-size:25px;color:black"><b>Event Heading</b></p>
+                     <p style="margin-top: 20px;;color:grey">20/01/2019 &nbsp;&nbsp;Location</p>
+                  <hr style="background-color: grey;width:80%">
+                     <div style="text-align: center;">
+<p style="color:gery ;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of typ</p>           
+                    </div>
+           
+                   </div>
+           
+                 </div>
+               </ng-template> 
+               <ng-template carouselSlide >
+                <div class="card" style="height:520px;width:530px" >
+                  <div class="card-body">
+                    <img src="assets/images/pic4.jpg"> 
+                  
+                    <p style="margin-top: 20px;font-size:25px;color:black"><b>Event Heading</b></p>
+                    <p style="margin-top: 20px;;color:grey">20/01/2019 &nbsp;&nbsp;Location</p>
+                 <hr style="background-color: grey;width:80%">
+                    <div style="text-align: center;">
+<p style="color:gery ;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of typ</p>           
+                   </div>
+          
+                  </div>
+          
+                </div>
+              </ng-template> 
+               
+               <!-- <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Digital Marketing</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>ERP Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>CRM Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Graphics Designing</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Mobile App Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+               <ng-template carouselSlide>
+                 <div class="card" style="height:350px;width:270px">
+                   <div class="card-body" >
+                     <img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"> 
+                     <p style="text-align: center;margin-top: 10px;font-size:20px;color:#075196"><b>Software Development</b></p>
+                     <button class="btn radius-xl" style="background-color: #f7b205;">View more</button>
+           
+                   </div>
+           
+                 </div>
+               </ng-template>
+              -->
+             </owl-carousel-o> 
+           </div>
+    
+        </div>
+     
+        
+      </div>
+      
+    
+    </div>
+
+
+
+<br><br><br>
+  
+    <div class="container-fluid">
+      <div class="row" style="background-color: #303030">
+        <div class="col-lg-4">
+         <p style="margin-top:40px;color:white;font-size: 20px;text-align: center;"><b>CONTACT INFO</b></p>
+         <hr style="background-color: white;width:30%">
+         <ul id="kkm" style="list-style: none;color:white">
+           <li>Live Tech Services Private Limited, 223 FF, MSX Mall, Swarn Nagari, Greater Noida</li>
+           <br>
+           <li><i class="fa fa-phone"></i>&nbsp;+91 8802351855, 9643824091 </li>
+           <br>
+           <li><i class="fa fa-envelope"></i>&nbsp;info@livetechservices.in</li>
+           <br>
+           <li><i class="fa fa-envelope"></i>&nbsp;livetechservice@gmail.com</li>
+         
+    
+         </ul>
+        </div>
+        <div class="col-lg-4" >
+          <p style="margin-top:40px;color:white;font-size: 20px;text-align: center;"><b>Site Map</b></p>
+          <hr style="background-color: white;width:30%">
+          <ul style="list-style: none;color:white;text-align: center;margin-left:-30px;">
+            <li>Home</li>
+            <br>
+            <a href="/about"> <li style="color:white">About Us</li></a>
+            <br>
+            <a href="#/gallery"><li  style="color:white">Products</li></a>
+            <br>
+            <a href="#/contact"> <li style="color:white">Services</li></a>
+            <br>
+            <a href="#/contact"> <li style="color:white">Contact Us</li></a>
+     
+     
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <p style="margin-top:40px;color:white;font-size: 20px;text-align: center;"><b>Map</b></p>
+          <hr style="background-color: white;width:30%">
+          <iframe src="https://maps.google.com/maps?q=Live%20Tech%20Services%20Private%20Limited%2C%20223%20FF%2C%20MSX%20Mall%2C%20Swarn%20Nagari%2C%20Greater%20Noida&t=&z=13&ie=UTF8&iwloc=&output=embed" style="width:100%;height:50%"></iframe>
+    
+        </div>
+        <br>
+    
+      </div>
+      <div class="row" style="background-color: #303030;">
+        <div class="col-lg-12">
+    
+        <hr style="background-color: white;">
+        <p style="color:white;text-align:center">© Copyrights All Rights Reserved. Designed and Developed by <a href="livetechservices.in">LTS</a></p>
+    
+      </div>
+      </div>
+    
+    </div>
+
+    </body>
+
+
+</html>
